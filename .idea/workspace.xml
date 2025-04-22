@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c32e09f-f5e1-4cf5-8caf-13db8e8fe1d8" name="Changes" comment="" />
+    <list default="true" id="7c32e09f-f5e1-4cf5-8caf-13db8e8fe1d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745257805189</updated>
-      <workItem from="1745257806184" duration="7922000" />
+      <workItem from="1745257806184" duration="9001000" />
+      <workItem from="1745341341847" duration="840000" />
     </task>
     <servers />
   </component>
