@@ -62,8 +62,12 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests((authorize) ->
                         authorize
+                                .requestMatchers("/static/**", "/login.html", "/", "/login").permitAll() // Allow access to static resources and login page
                                 .anyRequest().authenticated()
                 )
+                .formLogin(httpSecurityFormLoginConfigurer -> httpSecurityFormLoginConfigurer
+                        .loginPage("/login.html").permitAll()
+                        .loginProcessingUrl("/login").permitAll())
                 .csrf(AbstractHttpConfigurer::disable)
                 // Redirect to the login page when not authenticated from the
                 // authorization endpoint
