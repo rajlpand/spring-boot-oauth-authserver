@@ -30,6 +30,7 @@ import org.springframework.security.oauth2.server.authorization.settings.ClientS
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.MediaTypeRequestMatcher;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
@@ -65,15 +66,12 @@ public class SecurityConfig {
                                 .requestMatchers("/static/**", "/login.html", "/", "/login").permitAll() // Allow access to static resources and login page
                                 .anyRequest().authenticated()
                 )
-                .formLogin(httpSecurityFormLoginConfigurer -> httpSecurityFormLoginConfigurer
-                        .loginPage("/login.html").permitAll()
-                        .loginProcessingUrl("/login").permitAll())
                 .csrf(AbstractHttpConfigurer::disable)
                 // Redirect to the login page when not authenticated from the
                 // authorization endpoint
                 .exceptionHandling((exceptions) -> exceptions
                         .defaultAuthenticationEntryPointFor(
-                                new LoginUrlAuthenticationEntryPoint("/login"),
+                                new LoginUrlAuthenticationEntryPoint("/login.html"),
                                 new MediaTypeRequestMatcher(MediaType.TEXT_HTML)
                         )
                 ).cors(cors -> cors
@@ -94,7 +92,9 @@ public class SecurityConfig {
                 )
                 // Form login handles the redirect to the login page from the
                 // authorization server filter chain
-                .formLogin(Customizer.withDefaults());
+                .formLogin(httpSecurityFormLoginConfigurer -> httpSecurityFormLoginConfigurer
+                        .loginPage("/login.html").permitAll()
+                        .loginProcessingUrl("/login").permitAll());
 
         return http.build();
     }

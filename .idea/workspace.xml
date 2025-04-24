@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TypeScript JSX File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.preview" />
         <item itemvalue="npm.build" />
@@ -153,7 +153,7 @@
       <workItem from="1745257806184" duration="9001000" />
       <workItem from="1745341341847" duration="2713000" />
       <workItem from="1745515915093" duration="2070000" />
-      <workItem from="1745518251816" duration="6039000" />
+      <workItem from="1745518251816" duration="11987000" />
     </task>
     <servers />
   </component>
