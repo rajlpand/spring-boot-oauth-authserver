@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c32e09f-f5e1-4cf5-8caf-13db8e8fe1d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +59,7 @@
     "npm.dev.executor": "Run",
     "npm.lint.executor": "Run",
     "npm.preview.executor": "Run",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "/Users/rajnishlal/Documents/src/github.com/rajlpand/spring-boot-oauth-authserver/webapp/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }

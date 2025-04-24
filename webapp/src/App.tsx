@@ -11,8 +11,11 @@ const authConfig: TAuthConfig = {
     clientId: 'oidc-client',
     authorizationEndpoint: 'http://localhost:9000/oauth2/authorize',
     tokenEndpoint: 'http://localhost:9000/oauth2/token',
-    redirectUri: 'http://localhost:8080/', // Ensure this matches your app's URL
-    scope: 'openid profile', // Adjust scopes as needed
+    redirectUri: 'http://localhost:8080/',
+    scope: 'openid profile',
+    extraTokenParameters: {
+        grant_type: 'authorization_code',
+    },
     onRefreshTokenExpire: (event: TRefreshTokenExpiredEvent) => window.confirm('Session expired. Refresh page to continue using the site?') && event.login(),
 }
 
