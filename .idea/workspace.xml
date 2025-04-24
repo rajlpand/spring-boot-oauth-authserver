@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c32e09f-f5e1-4cf5-8caf-13db8e8fe1d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/loginapp/loginapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -49,6 +51,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringBootOauthAuthserverApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -58,6 +61,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.build.executor": "Run",
+    "npm.dev (1).executor": "Run",
     "npm.dev.executor": "Run",
     "npm.lint.executor": "Run",
     "npm.preview.executor": "Run",
@@ -79,6 +83,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/loginapp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -116,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.preview" />
@@ -141,7 +156,7 @@
       <workItem from="1745257806184" duration="9001000" />
       <workItem from="1745341341847" duration="2713000" />
       <workItem from="1745515915093" duration="2070000" />
-      <workItem from="1745518251816" duration="2274000" />
+      <workItem from="1745518251816" duration="4831000" />
     </task>
     <servers />
   </component>
@@ -153,8 +168,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/panduit/sbauth/springbootoauthauthserver/SecurityConfig.java</url>
-          <line>91</line>
-          <properties class="com.panduit.sbauth.springbootoauthauthserver.SecurityConfig" method="userDetailsService">
+          <line>93</line>
+          <properties class="com.panduit.sbauth.springbootoauthauthserver.SecurityConfig">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
